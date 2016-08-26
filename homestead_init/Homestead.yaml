@@ -1,9 +1,9 @@
 ---
-ip: "192.168.10.10"
+ip: "10.10.10.10"
 memory: 2048
 cpus: 1
 provider: virtualbox
-
+name: Homestead
 authorize: ~/.ssh/id_rsa.pub
 
 keys:
@@ -14,12 +14,12 @@ folders:
       to: /home/vagrant/projects
 
 sites:
-    - map: dev.template
+    - map: napoli.dev
       to: /home/vagrant/projects/template/public
 
 databases:
     - test_template
-    - dev_template
+    - napoli.dev
 
 # blackfire:
 #     - id: foo
