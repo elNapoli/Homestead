@@ -15,7 +15,7 @@ folders:
 
 sites:
     - map: dev.blog
-      to: /home/vagrant/projects/blog/public
+      to: /home/vagrant/projects/template/public
 
 databases:
     - test_blog
