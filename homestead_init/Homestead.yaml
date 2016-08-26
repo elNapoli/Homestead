@@ -14,7 +14,7 @@ folders:
       to: /home/vagrant/projects
 
 sites:
-    - map: dev.blog
+    - map: dev.template
       to: /home/vagrant/projects/template/public
 
 databases:
