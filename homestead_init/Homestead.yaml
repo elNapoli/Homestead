@@ -18,8 +18,8 @@ sites:
       to: /home/vagrant/projects/template/public
 
 databases:
-    - test_blog
-    - dev_blog
+    - test_template
+    - dev_template
 
 # blackfire:
 #     - id: foo
