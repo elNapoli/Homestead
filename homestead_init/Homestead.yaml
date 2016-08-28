@@ -14,12 +14,12 @@ folders:
       to: /home/vagrant/projects
 
 sites:
-    - map: napoli.dev
+    - map: dev.template
       to: /home/vagrant/projects/template/public
 
 databases:
     - test_template
-    - napoli.dev
+    - dev.template
 
 # blackfire:
 #     - id: foo
