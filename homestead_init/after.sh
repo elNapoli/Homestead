@@ -9,6 +9,3 @@ composer install
 cp .env.example .env
 php artisan key:generate
 
-sudo apt-get install ruby-full -y
-sudo gem install compass
-
